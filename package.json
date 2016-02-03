@@ -1,0 +1,40 @@
+{
+  "name": "mediacenter.js",
+  "version": "0.0.1",
+  "description": "Mediacenter",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js",
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lamo2k123/mediacenter.js.git"
+  },
+  "keywords": [
+    "Mediacenter"
+  ],
+  "author": "lamo2k123",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lamo2k123/mediacenter.js/issues"
+  },
+  "dependencies": {
+    "react": "0.14.7",
+    "react-dom": "0.14.7",
+    "react-router": "2.0.0-rc5"
+  },
+  "devDependencies": {
+    "babel-core": "6.4.5",
+    "babel-loader": "6.2.1",
+    "babel-preset-es2015": "6.3.13",
+    "babel-preset-react": "6.3.13",
+    "css-loader": "0.23.1",
+    "electron-prebuilt": "0.36.7",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "postcss-loader": "0.8.0",
+    "postcss-nested": "1.0.0",
+    "webpack": "1.12.12"
+  }
+}
